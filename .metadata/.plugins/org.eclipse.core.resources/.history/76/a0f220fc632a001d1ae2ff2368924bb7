@@ -1,0 +1,12 @@
+package br.com.residencia.poo.balanco;
+
+public class BalancoTrimestral {
+
+	public static void main(String[] args) {
+		int gastosJaneiro;
+		int gastosFevereiro;
+		int gastosMarco;
+		
+	}
+
+}

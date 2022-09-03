@@ -1,0 +1,44 @@
+package br.com.residencia.poo.exerciciospdf;
+
+import java.util.Scanner;
+
+public class ExercicioTresA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double n1, n2, soma = 0.0, sub = 0.0, mult = 0.0, div = 0.0;
+		String operacao;
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("=====CALCULADORA DA GRAZI===== \n");
+		System.out.println("=====Digite o primeiro número: ");
+		n1 = entrada.nextDouble();
+		System.out.println("=====Digite o segundo número: ");
+		n2 = entrada.nextDouble();
+		System.out.println("=====Escolha a operação desejada: [+][-][*][/] ");
+		operacao = entrada.next();
+		
+		soma = n1 + n2;
+		sub = n1 - n2;
+		mult = n1 * n2;
+		div = n1 / n2;
+		
+		
+		
+		
+		
+		
+		se(n2 != 0){
+			resultado3 = divisao(n1, n2)
+			escreva("\nO resultado da divisão é: ", resultado3)
+			}
+			senao{
+				escreva("\n") 
+				}
+		
+		entrada.close();
+	}
+
+}
+
+

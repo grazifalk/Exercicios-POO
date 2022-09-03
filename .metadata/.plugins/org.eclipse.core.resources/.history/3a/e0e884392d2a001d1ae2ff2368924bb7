@@ -1,0 +1,16 @@
+package br.com.residencia.poo.exerciciospdf;
+
+/*Crie o programa “mini calculadora”, que após ler dois números inteiros
+apresenta as operações de soma, subtração, multiplicação e divisão com
+eles.
+Obs.: Trate o maior número possível de erros (ex: operações com números
+negativos, divisão por zero, uso de letras, etc).*/
+
+public class ExercicioTres {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

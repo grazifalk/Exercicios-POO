@@ -1,0 +1,13 @@
+package br.com.residncia.poo.banco;
+
+public class Conta {
+
+	public static void main(String[] args) {
+		// o que uma conta tem
+		int numero;
+		String titular;
+		double saldo;
+
+	}
+
+}

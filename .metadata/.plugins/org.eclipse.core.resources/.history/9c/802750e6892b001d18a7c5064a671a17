@@ -1,0 +1,34 @@
+package br.com.poo.sistemabancario.contas;
+
+public class Conta {
+	
+		// declaracao de variaveis
+		public int numero;
+		public String titular;
+		public double saldo;
+		
+		//acoes da conta
+		
+		// metodo de saque sem tratamento
+	/*	public void sacar(double valor) {
+			double novoSaldo = this.saldo - valor;
+			this.saldo = novoSaldo;
+		}*/
+		
+		//metodo de saque com tratamento parcial
+		public boolean sacar(double valor) {
+			if (this.saldo < valor) {
+				System.out.println("Saldo insuficiente!");
+				return false;
+			} else {
+				double novoSaldo = this.saldo - valor;
+				this.saldo = novoSaldo;
+				
+				return true;
+			}
+		}
+
+		//metodo para efetuar um deposito
+	
+
+}

@@ -1,0 +1,15 @@
+package br.com.residencia.poo.exerciciospdf;
+
+/*O programa “Tempo de vida” irá imprimir a soma das idades de todos os
+colegas da sua equipe (6 pessoas). Pergunte a cada um a idade e não
+esqueça a sua! Depois faça a atribuição direta da expressão em uma
+variável inteira.*/
+
+public class ExercicioDois {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

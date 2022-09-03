@@ -1,0 +1,26 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class ExercicioQuatro {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Informe o nome do aluno: ");
+		String nome = in.nextLine();
+
+		System.out.println("Informe a disciplina: ");
+		String discilplina = in.nextLine();
+		
+		int cont = 1;
+		float nota, totalNotas;
+		do {
+		    System.out.println("Insira a nota"+cont+": ");
+		    float nota = in.nextLine();
+		    totalNotas += nota;
+		    	cont++;
+		} while (cont <= 3);
+	}
+
+}
