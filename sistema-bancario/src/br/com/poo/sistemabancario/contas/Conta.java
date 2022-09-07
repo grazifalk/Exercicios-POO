@@ -3,10 +3,14 @@ package br.com.poo.sistemabancario.contas;
 public class Conta {
 
 	// declaracao de variaveis
-	public int numero;
-	public String titular;
-	public double saldo;
+	private int numero;
+	private String titular;
+	private double saldo;
 	
+	public Conta(String titular) {
+		this.titular = titular;
+	}
+
 	// acoes da conta
 
 	// metodo de saque sem tratamento
@@ -48,7 +52,7 @@ public class Conta {
 
 	// transferencia entre contas
 
-//	public boolean tranferir(double valor) {
+//	public boolean transferir(double valor) {
 //		if (valor < 0) {
 //			System.out.println("Valor inválido!");
 //			return false;
@@ -64,14 +68,47 @@ public class Conta {
 //		}
 //	}
 
-	public boolean transferir(Conta x, double valor) {
+	public boolean transferir(Conta destino, double valor) {
 		if (valor <= saldo && valor > 0) {
 			this.sacar(valor);
-			x.depositar(valor);
+			destino.depositar(valor);
+			System.out.println("Transferência realizada com sucesso!");
 			return true;
 		} else {
+			System.out.println("Saldo insuficiente para transação!");
 			return false;
 		}
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public Conta() {
+		super();
+	}
+
+	public Conta(int numero, String titular, double saldo) {
+		super();
+		this.numero = numero;
+		this.titular = titular;
+		this.saldo = saldo;
 	}
 
 }
