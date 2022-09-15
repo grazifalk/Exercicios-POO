@@ -25,3 +25,8 @@ public class ListaUmExDois {
 	}
 
 }
+
+
+
+
+//O erro está na linha 18. Forma correta: idade = info.nextInt();

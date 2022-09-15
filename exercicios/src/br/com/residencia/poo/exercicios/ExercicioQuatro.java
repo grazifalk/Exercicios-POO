@@ -2,7 +2,7 @@ package br.com.residencia.poo.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioQuatro {
+public class ExercicioQuatro { //exercicio quatro utilizando do/while
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

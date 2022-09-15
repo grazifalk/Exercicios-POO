@@ -24,3 +24,9 @@ public class ListaUmExQuatro {
 	}
 
 }
+
+
+
+
+
+//o erro está na linha 19. Faltou o ; após o número 32.

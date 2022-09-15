@@ -1,5 +1,6 @@
 package br.com.residencia.poo.exerciciospdf;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /*Crie o programa “mini calculadora”, que após ler dois números inteiros
@@ -15,7 +16,10 @@ public class ExercicioTres {
 		String operacao;
 		Scanner entrada = new Scanner(System.in);
 		
+		try {
+					
 		System.out.println("=====CALCULADORA DA GRAZI===== \n");
+		
 		System.out.println("=====Digite o primeiro número: ");
 		n1 = entrada.nextDouble();
 		System.out.println("=====Digite o segundo número: ");
@@ -26,7 +30,7 @@ public class ExercicioTres {
 		soma = n1 + n2;
 		sub = n1 - n2;
 		mult = n1 * n2;
-				
+		
 		switch (operacao) {
 	    case "+":
 	        System.out.println(n1 + " + " + n2 + " = " + soma);
@@ -50,7 +54,9 @@ public class ExercicioTres {
 			break;
 
 		}
+		} catch (InputMismatchException e) {
+			System.out.println("Valor inválido!");
+		}
 		entrada.close();
 	}
-
 }

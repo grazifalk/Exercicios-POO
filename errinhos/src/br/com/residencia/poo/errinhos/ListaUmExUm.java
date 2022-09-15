@@ -16,3 +16,17 @@ public class ListaUmExUm {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Faltou fechar o scanner. Forma ideal: ao final do último sysout adicionar o código: dados.close();
