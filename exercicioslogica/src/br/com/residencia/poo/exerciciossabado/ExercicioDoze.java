@@ -2,6 +2,8 @@ package br.com.residencia.poo.exerciciossabado;
 
 import java.util.Scanner;
 
+/* 12- Faça um Programa que leia três números e mostre o maior deles.*/
+
 public class ExercicioDoze {
 
 	public static void main(String[] args) {
@@ -28,6 +30,8 @@ public class ExercicioDoze {
 			System.out.println("Erro!");
 		}
 
+		sc.close();
+		
 	}
-
+	
 }

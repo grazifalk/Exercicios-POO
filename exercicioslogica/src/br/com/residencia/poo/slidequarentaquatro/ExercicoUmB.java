@@ -29,7 +29,7 @@ public class ExercicoUmB {
 		media = (notaUm + notaDois + notaTres + notaQuatro)/4;
 		
 		if(media > 7) {
-			System.out.println("Parabéns!!! Você foi aprovado! :) \nSua média é: " + media + "!");
+			System.out.println("Parabéns, " + nomeAluno + "! " + "Você foi aprovado! :) \nSua média é: " + media + "!");
 		} else {
 			System.out.println("Oh, não! Você foi reprovado! \nSua média é: " + media + "!");
 		}
