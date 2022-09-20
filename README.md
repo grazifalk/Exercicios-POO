@@ -16,6 +16,8 @@ Bolinho. 🎂
 Exercício de erros para tratar em aula.
 #### 📦 exercicios
 Exercícios do portugol.
+#### 📦 exercicioslogica
+Mais exercícios transformados do portugol.
 #### 📦 exerciciospdf
 Pdf com lista de excercícios.
 #### 📦 sistema-bancario
